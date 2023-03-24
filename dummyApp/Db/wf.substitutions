@@ -1,0 +1,12 @@
+file db/wfx.db {
+    pattern { ID, NELM,  FTVL,     SCAN }
+            { 1, 10000, "DOUBLE", ".1 second" }
+            { 2, 20000, "LONG",   ".2 second" }
+            { 3, 10000, "LONG",   ".1 second" }
+            { 4, 10000, "SHORT",  ".2 second" }
+            { 5, 30000, "LONG",   ".1 second" }
+            { 6, 30000, "LONG",   ".2 second" }
+            { 7, 10000, "FLOAT",  ".1 second" }
+            { 8, 50000, "LONG",   ".2 second" }
+            { 9, 50000, "DOUBLE", ".1 second" }
+}
