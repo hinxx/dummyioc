@@ -20,6 +20,8 @@ DBD += dummy.dbd
 
 # dummy.dbd will include these files:
 dummy_DBD += base.dbd
+# use our menu scan definition with 0.05 and 0.07 s
+dummy_DBD += menuScan.dbd
 
 # dummy_registerRecordDeviceDriver.cpp derives from dummy.dbd
 dummy_SRCS += dummy_registerRecordDeviceDriver.cpp
