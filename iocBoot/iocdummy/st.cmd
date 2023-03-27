@@ -12,7 +12,9 @@ dbLoadDatabase "dbd/dummy.dbd"
 dummy_registerRecordDeviceDriver pdbbase
 
 ## Load record instances
-dbLoadTemplate "db/wf.substitutions"
+# dbLoadTemplate "db/wf.substitutions"
+dbLoadTemplate "db/scalars1.substitutions"
+dbLoadTemplate "db/waveforms1.substitutions"
 
 cd "${TOP}/iocBoot/${IOC}"
 iocInit

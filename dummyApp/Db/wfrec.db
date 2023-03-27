@@ -1,0 +1,6 @@
+record(waveform, "$(NAME)")
+{
+	field(FTVL, "$(FTVL)")
+	field(SCAN, "$(SCAN)")
+	field(NELM, "$(NELM)")
+}
